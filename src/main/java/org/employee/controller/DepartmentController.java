@@ -25,7 +25,7 @@ import org.springframework.web.client.RestClientException;
 @RestController
 public class DepartmentController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(DepartmentController.class);
 	@Autowired
 	DepartmentRepository deptRep ;
 	
